@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>The driver name is an older approach.  DriverManager makes this no longer necessary.</comment>
+    <entry key="password">pword</entry>
+    <entry key="userName">user</entry>
+    <entry key="connectionString">jdbc:mysql://localhost:3306/chinook</entry>
+    <entry key="driverName">com.mysql.jdbc.Driver</entry>
+    <entry key="databaseName">chinook</entry>
+    <entry key="schemaName">public</entry>
+</properties>
