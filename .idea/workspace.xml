@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bc3823b-0cf0-47a8-9608-9add75162fee" name="Default" comment="" />
+    <list default="true" id="6bc3823b-0cf0-47a8-9608-9add75162fee" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/AnsiEntityStoreImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/AnsiEntityStoreImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/MySQLEntityStoreImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/MySQLEntityStoreImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/PostgresEntityStoreImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/PostgresEntityStoreImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/RelationalTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/RelationalTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="dbpreserve.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1367032884741" ignored="false" />
+    <file path="/Dummy.txt" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1367212670309" ignored="false" />
     <file path="/Main.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1360565581757" ignored="false" />
     <file path="/fragment.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365791062243" ignored="false" />
     <file path="/Connector.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365790680330" ignored="false" />
@@ -30,7 +36,7 @@
     <file path="/Schema.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1361663711001" ignored="false" />
     <file path="/EntityStore.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1364336710128" ignored="false" />
     <file path="/EntityStoreImpl.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1361674202237" ignored="false" />
-    <file path="/MySQLEntityStoreImpl.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365745920709" ignored="false" />
+    <file path="/MySQLEntityStoreImpl.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1367097236172" ignored="false" />
     <file path="/AttributeDescriptor.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1362431358295" ignored="false" />
     <file path="/RelationalConnectorImpl.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365740264908" ignored="false" />
     <file path="/MySQLSchema.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1361663810468" ignored="false" />
@@ -42,7 +48,7 @@
     <file path="/KeyDescriptorImpl.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1363859428508" ignored="false" />
     <file path="/KeyDescriptor.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1363858509529" ignored="false" />
     <file path="/KeyColumnDescriptor.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365914799457" ignored="false" />
-    <file path="/RelationalTest.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365905652584" ignored="false" />
+    <file path="/RelationalTest.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1367192613789" ignored="false" />
     <file path="/AnsiRelationalStoreImpl.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365736703723" ignored="false" />
     <file path="/AnsiConnectorImpl.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365750638119" ignored="false" />
     <file path="/Ansi-Chinook.xml" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365744910656" ignored="false" />
@@ -51,7 +57,7 @@
     <file path="/PostgresConnectorImpl.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365787056942" ignored="false" />
     <file path="/PostresEntityStoreImpl.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365790528454" ignored="false" />
     <file path="/PostgresTest.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365790634280" ignored="false" />
-    <file path="/PostgresEntityStoreImpl.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1365826331497" ignored="false" />
+    <file path="/PostgresEntityStoreImpl.java" changelist="6bc3823b-0cf0-47a8-9608-9add75162fee" time="1367096976405" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,54 +113,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/RelationalTest.java" line="85" class="org.cr8on.dbpreserve.api.RelationalTest" package="org.cr8on.dbpreserve.api">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/RelationalTest.java" line="81" class="org.cr8on.dbpreserve.api.RelationalTest" package="org.cr8on.dbpreserve.api">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/RelationalEntityStoreImpl.java" line="62" class="org.cr8on.dbpreserve.impl.relational.RelationalEntityStoreImpl" package="org.cr8on.dbpreserve.impl.relational">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -164,73 +124,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Postgres-Chinook.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Postgres-Chinook.xml">
+      <file leaf-file-name="MySQLEntityStoreImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/MySQLEntityStoreImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+            <state line="23" column="23" selection-start="713" selection-end="722" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Attribute.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/Attribute.java">
+      <file leaf-file-name="RelationalConnectorImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/RelationalConnectorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="17" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="110" column="52" selection-start="2967" selection-end="2980" vertical-scroll-proportion="0.03024911">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttributeDescriptor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/AttributeDescriptor.java">
+      <file leaf-file-name="AnsiConnectorImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/AnsiConnectorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="17" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+            <state line="13" column="22" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttributeImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/AttributeImpl.java">
+      <file leaf-file-name="AnsiEntityStoreImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/AnsiEntityStoreImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+            <state line="183" column="33" selection-start="6913" selection-end="6922" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeyColumnDescriptor.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/KeyColumnDescriptor.java">
+      <file leaf-file-name="RelationalEntityStoreImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/RelationalEntityStoreImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="73" selection-start="1561" selection-end="1561" vertical-scroll-proportion="1.4434782">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeyDescriptor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/KeyDescriptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostgresTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/PostgresTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RelationalTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/RelationalTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="0" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.0">
+            <state line="212" column="23" selection-start="7221" selection-end="7221" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -245,10 +178,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Entity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="17" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MySQL-Chinook.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/MySQL-Chinook.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="557" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -276,7 +218,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/MySQL-Chinook.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Ansi-Chinook.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/MySQLEntityStoreImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/AnsiConnectorImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/MySQLConnectorImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/PostgresConnectorImpl.java" />
@@ -285,11 +226,12 @@
         <option value="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/Connector.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Postgres-Chinook.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/PostgresEntityStoreImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/RelationalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/KeyColumnDescriptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/RelationalEntityStoreImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/AnsiEntityStoreImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/PostgresEntityStoreImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/MySQLEntityStoreImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/RelationalTest.java" />
       </list>
     </option>
   </component>
@@ -329,8 +271,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2019" />
-    <option name="y" value="51" />
+    <option name="x" value="353" />
+    <option name="y" value="24" />
     <option name="width" value="1538" />
     <option name="height" value="1028" />
   </component>
@@ -380,6 +322,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -636,7 +579,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -656,14 +598,14 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
-    <property name="Repository.Attach.Sources" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="F:\dev\sandbox\dbpreserve\lib" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="Downloaded.Files.Path" value="F:\dev\sandbox\dbpreserve\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -912,7 +854,7 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -922,7 +864,6 @@
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
@@ -968,14 +909,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2019" y="51" width="1538" height="1028" extended-state="0" />
-    <editor active="true" />
+    <frame x="353" y="24" width="1538" height="1028" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28751433" sideWeight="0.49564743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28751433" sideWeight="0.49564743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969916" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992891" sideWeight="0.48555955" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39839265" sideWeight="0.48555955" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33293414" sideWeight="0.5150421" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2761733" sideWeight="0.33652696" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286052" sideWeight="0.49347118" order="8" side_tool="false" content_ui="tabs" />
@@ -984,10 +925,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3335147" sideWeight="0.66704804" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37737128" sideWeight="0.7124857" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41232228" sideWeight="0.4807461" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41216993" sideWeight="0.4807461" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270142" sideWeight="0.49782372" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.326062" sideWeight="0.49782372" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32742316" sideWeight="0.49037305" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.49782372" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1060,93 +1001,37 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/AnsiEntityStoreImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/EntityStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="40" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.0">
+        <state line="11" column="17" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/MySQLEntityStoreImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/MySQLConnectorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
+        <state line="10" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/PostgresEntityStoreImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="0" selection-start="4617" selection-end="4617" vertical-scroll-proportion="0.0">
+        <state line="23" column="23" selection-start="724" selection-end="733" vertical-scroll-proportion="-14.64">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dbpreserve.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/XMLConfigurationImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="21" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/ConfigurationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/Connector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/MySQLTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/PostgresTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/cr8on/dbpreserve/api/RelationalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Ansi-Chinook.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/MySQL-Chinook.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Postgres-Chinook.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/AttributeDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+        <state line="22" column="17" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1158,16 +1043,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/KeyDescriptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+        <state line="12" column="17" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/api/readers/KeyColumnDescriptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/AnsiConnectorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="73" selection-start="1561" selection-end="1561" vertical-scroll-proportion="1.4434782">
+        <state line="13" column="22" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/RelationalEntityStoreImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="23" selection-start="7221" selection-end="7221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/AnsiEntityStoreImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="33" selection-start="6913" selection-end="6922" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/MySQLEntityStoreImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="713" selection-end="722" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/MySQL-Chinook.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="557" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Ansi-Chinook.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Postgres-Chinook.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="89" selection-start="571" selection-end="571" vertical-scroll-proportion="0.22639225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/PostgresConnectorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="212" selection-end="212" vertical-scroll-proportion="0.20581114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cr8on/dbpreserve/impl/relational/RelationalConnectorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="52" selection-start="2967" selection-end="2980" vertical-scroll-proportion="0.03024911">
           <folding />
         </state>
       </provider>

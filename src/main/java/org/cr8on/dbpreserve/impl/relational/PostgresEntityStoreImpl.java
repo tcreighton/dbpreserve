@@ -74,8 +74,20 @@ public class PostgresEntityStoreImpl extends AnsiEntityStoreImpl {
                     testType.contains(PostgresColumnType.MEDIUMTEXT.toString()) ||
                     testType.contains(PostgresColumnType.LONGTEXT.toString()))
                 attributeType = AttributeDescriptor.AttributeType.STRING;
-        }
 
+/**
+ * test dates
+ *          DATE, DATETIME, TIME, TIMESTAMP, YEAR
+ *
+ *          Just map to string for now.
+ */
+            else if (testType.contains(PostgresColumnType.DATE.toString()) ||
+                    testType.contains(PostgresColumnType.DATETIME.toString()) ||
+                    testType.contains(PostgresColumnType.TIME.toString()) ||
+                    testType.contains(PostgresColumnType.TIMESTAMP.toString()) ||
+                    testType.contains(PostgresColumnType.YEAR.toString()))
+                attributeType = AttributeDescriptor.AttributeType.STRING;
+        }
 
         return attributeType;
     }

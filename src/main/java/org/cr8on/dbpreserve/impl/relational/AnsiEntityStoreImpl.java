@@ -66,7 +66,7 @@ public abstract class AnsiEntityStoreImpl extends RelationalEntityStoreImpl {
             append("on ku.table_name = tc.table_name and ").
             append("ku.constraint_name = tc.constraint_name and ").
             append("ku.table_name = '%1' ").
-            append("order by ku.table_name, tc.constraint_type desc, ku.constraint_name, ku.ordinal_position");
+            append("order by ku.table_name, tc.constraint_type DESC, ku.constraint_name, ku.ordinal_position");
 
         return s.toString();
     }

@@ -74,6 +74,19 @@ public class MySQLEntityStoreImpl extends AnsiEntityStoreImpl {
                      testType.contains(MySQLColumnType.MEDIUMTEXT.toString()) ||
                      testType.contains(MySQLColumnType.LONGTEXT.toString()))
                     attributeType = AttributeDescriptor.AttributeType.STRING;
+
+/**
+ * test dates
+ *          DATE, DATETIME, TIME, TIMESTAMP, YEAR
+ *
+ *          Just map to string for now.
+ */
+            else if (testType.contains(MySQLColumnType.DATE.toString()) ||
+                    testType.contains(MySQLColumnType.DATETIME.toString()) ||
+                    testType.contains(MySQLColumnType.TIME.toString()) ||
+                    testType.contains(MySQLColumnType.TIMESTAMP.toString()) ||
+                    testType.contains(MySQLColumnType.YEAR.toString()))
+                attributeType = AttributeDescriptor.AttributeType.STRING;
         }
 
 

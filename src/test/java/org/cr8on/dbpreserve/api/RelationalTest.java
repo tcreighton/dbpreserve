@@ -90,28 +90,30 @@ public abstract class RelationalTest {
                     outputStream.print(entityStore.getName());
                     outputStream.print(" has ");
                     outputStream.print(entityStore.getEntityCount());
-                    outputStream.println(" rows.");
+                    outputStream.print(" rows of ");
+                    outputStream.println(attributeDescriptorSet.size() + " columns.");
+                    outputStream.println("Column (attribute) descriptions: ");
+                    outputStream.println("\tName\t\t\t\tPosition\tType\t\t\tNative Type\tMax Chars\tPrecision\tScale");
 
                     for (AttributeDescriptor a : attributeDescriptorSet) {
-                        outputStream.print("\tattribute: ");
-                        outputStream.print("name: " + a.getName());
-                        for (int i = 0; i < 20 - a.getName().length(); i++) {
+
+                        outputStream.print(a.getName());
+                        for (int i = 0; i < 16 - a.getName().length(); i++) {
                             outputStream.print(" ");
                         }
-                        outputStream.print("position: " + a.getOrdinalPosition());
-                        outputStream.print(a.getOrdinalPosition() < 10 ? "  " : " ");
-                        outputStream.print("type: " + a.getAttributeType());
-                        for (int i = 0; i < 12 - a.getAttributeType().toString().length(); i++) {
+                        outputStream.print("\t" + (a.getOrdinalPosition() < 10 ? " " : "") + a.getOrdinalPosition());
+                   //     outputStream.print(a.getOrdinalPosition() < 10 ? "   " : "  ");
+                        outputStream.print("\t\t" + a.getAttributeType());
+                   /*     for (int i = 0; i < 12 - a.getAttributeType().toString().length(); i++) {
                             outputStream.print(" ");
-                        }
-                        outputStream.print("native type: " + a.getNativeType());
-                        for (int i = 0; i < 15 - a.getNativeType().length(); i++) {
+                        } */
+                        outputStream.print("\t\t\t" + (a.getAttributeType().toString().length() < 6 ? "\t\t": "") + a.getNativeType());
+                   /*     for (int i = 0; i < 13 - a.getNativeType().length(); i++) {
                             outputStream.print(" ");
-                        }
-                        outputStream.print("max chars: " + a.getMaxCharacterLength() + "\t");
-                        outputStream.print("numeric precision: " + a.getNumericPrecision() + "\t");
-                        outputStream.print("numeric scale: " + a.getNumericScale() + "\t");
-                        outputStream.println(" ");
+                        } */
+                        outputStream.print("\t\t\t" + (a.getNativeType().length() < 7 ? "\t\t\t" : (a.getNativeType().length() == 7 ? "\t" : "")) + (a.getMaxCharacterLength() < 10 ? " " : "") + a.getMaxCharacterLength());
+                        outputStream.print("\t\t\t\t" + (a.getNumericPrecision() < 10 ? " " : "") + a.getNumericPrecision());
+                        outputStream.println("\t\t\t" + (a.getNumericScale() < 10 ? " " : "") + a.getNumericScale());
                     }
 
                     outputStream.print("\nKey count: ");
